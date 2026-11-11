@@ -12,7 +12,7 @@ Resources
 ---
 - [Si4703](https://cdn.sparkfun.com/assets/f/0/9/0/1/Si4702-03-C19-1.pdf)
 - [RPi Pico W](https://pip-assets.raspberrypi.com/categories/686-raspberry-pi-pico-w/documents/RP-008312-DS-2-pico-w-datasheet.pdf)
-
+- [RP2040](https://pip-assets.raspberrypi.com/categories/814-rp2040/documents/RP-008371-DS-1-rp2040-datasheet.pdf)
 
 
 ---
