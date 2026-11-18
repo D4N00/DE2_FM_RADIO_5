@@ -5,7 +5,9 @@ FM radio receiver with digital tuning. Project for DE2 course
 The project is built around the Si4703 FM tuner IC and Raspberry Pi Pico W 
 An 1.3" OLED display is used along with a rotary encoder for user interface.
 
-
+Libraries
+---
+- [Rotary encoder](https://github.com/miketeachman/micropython-rotary/)
 
 ---
 Resources
