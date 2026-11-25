@@ -55,27 +55,27 @@ Si4703, kabel sluchátek zároveň slouží jako anténa.
 | Richard Vaško   | DOPSAT |
 | Václav Vojtovič | UI     |
 | Daniel Viskup   | HW, test FW |
-| Vít Uhlíř       | Display |
+| Vít Uhlíř       | test Display |
 
 ## Struktura repozitáře
 
 ```
 DE2_FM_RADIO_5/
-├── README.md                        # tento popis projektu
-├── fm_radio_pico_si4703_schema.png  # schéma zapojení
-├── pic/                             # návrhy obrazovek OLED (Lopaka)
+├── README.md                        
+├── fm_radio_pico_si4703_schema.png  
+├── pic/                             
 │   ├── README.md
 │   ├── splash_screen_8x.png
 │   ├── fm_screen_8x.png
 │   ├── menu_screen_8x.png
 │   ├── presets_screen_8x.png
 │   └── rds_screen_8x.png
-└── test/                            # testovací skripty pro jednotlivé části HW
-    ├── OLED_test.py                 # základní test displeje
-    ├── display_test.py              # vykreslení hlavní FM obrazovky
-    ├── encoder_display.py           # ladění frekvence enkodérem na FM obrazovce
-    ├── test_dual_enc.py             # test obou enkodérů + tlačítek
-    └── test_dual_enc_longpress.py   # test dlouhého stisku tlačítka
+└── test/                            
+    ├── OLED_test.py                 
+    ├── display_test.py              
+    ├── encoder_display.py           
+    ├── test_dual_enc.py             
+    └── test_dual_enc_longpress.py   
 ```
 
 Knihovny ze sekce [Použité knihovny](#použité-knihovny) se nahrávají do `:lib/` na Pico.
