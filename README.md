@@ -55,7 +55,7 @@ Si4703, kabel sluchátek zároveň slouží jako anténa.
 | Richard Vaško   | DOPSAT |
 | Václav Vojtovič | UI     |
 | Daniel Viskup   | HW, test FW |
-| Vít Uhlíř       | DOPSAT |
+| Vít Uhlíř       | Display |
 
 ## Struktura repozitáře
 
