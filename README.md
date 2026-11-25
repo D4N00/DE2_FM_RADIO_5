@@ -85,7 +85,7 @@ Knihovny ze sekce [Použité knihovny](#použité-knihovny) se nahrávají do `:
 
 ## Schéma zapojení
 
-![Schéma zapojení](fm_radio_pico_si4703_schema.png)
+![Schéma zapojení](pic/schema.png)
 
 > **Pozor:** obrázek schématu zatím neodpovídá kódu. Platné zapojení je v tabulce níže
 > (OLED je SH1106 na I2C0 společně se Si4703, enkodéry na GP12–GP17). Schéma je potřeba překreslit.
