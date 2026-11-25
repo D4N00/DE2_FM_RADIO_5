@@ -62,6 +62,7 @@ Si4703, kabel sluchátek zároveň slouží jako anténa.
 ```
 DE2_FM_RADIO_5/
 ├── README.md                        
+├── main.py                          
 ├── fm_radio_pico_si4703_schema.png  
 ├── pic/                             
 │   ├── README.md
@@ -74,6 +75,8 @@ DE2_FM_RADIO_5/
     ├── OLED_test.py                 
     ├── display_test.py              
     ├── encoder_display.py           
+    ├── si4703_init.py               
+    ├── si4703_test_powerup.py       
     ├── test_dual_enc.py             
     └── test_dual_enc_longpress.py   
 ```
