@@ -45,7 +45,7 @@ regs = [0] * 16          # register shadow 00h..0Fh
 
 
 def show(name, value):
-    # hex + binary in nibbles (bits 15..0)
+    
     b = '{:016b}'.format(value)
     print('  {:<8} 0x{:04X}  {} {} {} {}'.format(name, value, b[0:4], b[4:8], b[8:12], b[12:16]))
 
@@ -87,7 +87,7 @@ def power_up(i2c):
     #               XOSCEN
     #               |AHIZEN
     #               ||  [13:0] = 0x0100
-    regs[TEST1] = 0b1000_0001_0000_0000      # 0x8100: crystal on
+    regs[TEST1] = 0b1000_0001_0000_0000      
     write_regs(i2c)
     time.sleep_ms(500)                       # crystal startup >= 500 ms
 
@@ -95,7 +95,7 @@ def power_up(i2c):
     #                  DSMUTE,DMUTE,MONO,- | RDSM,SKMODE,SEEKUP,SEEK | -,DISABLE,-,- | -,-,-,ENABLE
     regs[POWERCFG] = 0b0100_0000_0000_0001   # 0x4001: unmute, ENABLE = 1
     write_regs(i2c)
-    time.sleep_ms(110)                       # powerup time
+    time.sleep_ms(110)                       
 
     read_regs(i2c)
     print('After powerup:')
